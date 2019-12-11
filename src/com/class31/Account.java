@@ -14,7 +14,9 @@ public class Account {
 	}
 	//setter
 	public void setBalance(int amount) {
+		if(amount>0) {
 		balance=balance+amount;
+		}
 	}
 	//setter
 	public void setAccountNumber(long accountNumber){
