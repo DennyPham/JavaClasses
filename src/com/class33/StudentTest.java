@@ -45,22 +45,11 @@ public class StudentTest  {
 		students.add(new Student("Becky",7655));
 		students.add(new Student("Tony",9312));
 		System.out.println("-----------------------");
-		//display of each student
+		//display of each student using Iterator
 		Iterator<Student>it=students.iterator();
 		while(it.hasNext()) {
 			it.next().display();
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		
 		
